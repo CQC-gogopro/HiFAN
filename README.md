@@ -42,6 +42,15 @@ bash ./script/test_PAME_pascal.sh
 | **pascal_swinB**|78.59   |70.54    |84.88     |14.64   |76.80 |   -    |   146M | [link](https://drive.google.com/file/d/1CiwC875R0ARv_fbt7MbsWV2d0jVqXzuz/view?usp=sharing)        |
 | **pascal_swinL**|83.00   |73.71    |85.16     |14.64   |78.20 |   -    |   327M | [link](https://drive.google.com/file/d/1qfawypLeAYAgEOIiuVADjEtD_Ohb1QIV/view?usp=sharing)        |
 ## 4. Train the model
+Prepare the pretrained Swin-Large checkpoint by running the following command
+
 ```
-bash ./script/train_PAME_pascal.sh
+cd pretrained_ckpts
+bash run.sh
+cd ../
+```
+```
+bash ./scripts/train/nyu_swinL.sh
+bash ./scripts/train/pascal_swinB.sh
+bash ./scripts/train/pascal_swinL.sh
 ```
