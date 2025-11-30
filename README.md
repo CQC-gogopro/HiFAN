@@ -1,5 +1,5 @@
 # HiFAN
-
+![Pipeline](assets/pipeline.png)
 ## 1. Make the enriroment
 Our code is based on  `pytorch==2.0.0+cu118` `cuda==11.8` `timm==1.0.22` `mmcv==2.0.0`. Other environments can refer to requirements.txt
 ```
