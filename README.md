@@ -1,12 +1,12 @@
 # HiFAN
 
 ## 1. Make the enriroment
-Our code is based on  `pytorch==2.1.0+cu118` `cuda==11.8`. Other environments can refer to requirements.txt
+Our code is based on  `pytorch==2.0.0+cu118` `cuda==11.8` `timm==1.0.22` `mmcv==2.0.0`. Other environments can refer to requirements.txt
 ```
 conda create -n HiFAN python=3.10
 git clone https://github.com/CQC-gogopro/HiFAN.git
 cd HiFAN
-pip install requirements.txt
+pip install requirements.txt   # note: may not all used
 ```
 
 ## 2. Get data 
