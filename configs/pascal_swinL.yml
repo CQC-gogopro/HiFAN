@@ -1,0 +1,65 @@
+# Setup
+version_name: pascal_swinL
+out_dir: "./outputs/"
+
+# Database
+train_db_name: PASCALContext
+val_db_name: PASCALContext
+trBatch: 8
+ACCUMULATION_STEPS: 4
+valBatch: 6
+nworkers: 2
+ignore_index: 255
+
+# hypher para
+#* Stage Enhanced
+compress_r: 4    
+hp_r: 4
+lp_r: 4
+
+#* Global Perception
+attn_dim_r: 2
+attn_hp_r: 2
+
+#* Task Fusion
+
+
+# Optimizer and scheduler
+intermediate_supervision: True
+val_interval: 1000
+epochs: 99999
+max_iter: 40000
+optimizer: adamw
+optimizer_kwargs:
+   lr: 0.00004
+   weight_decay: 0.000001
+scheduler: poly
+
+# Model
+model: HiFAN
+backbone: swin_large
+
+# Tasks
+task_dictionary:
+   include_semseg: True
+   include_human_parts: True
+   include_sal: True
+   include_edge: True
+   include_normals: True
+   edge_w: 0.95
+
+# Loss kwargs
+loss_kwargs:
+   loss_scheme: loss_log_linear_decay
+   loss_weights:
+       semseg: 1.0
+       human_parts: 1.0
+       sal: 1.0
+       edge: 1.0
+       normals: 1.0
+   loss_decays:
+       semseg: 1.0
+       human_parts: 1.0
+       sal: 0.1
+       edge: 1.0
+       normals: 1.0
