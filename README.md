@@ -58,6 +58,9 @@ bash ./scripts/train/nyu_swinL.sh
 bash ./scripts/train/pascal_swinB.sh
 bash ./scripts/train/pascal_swinL.sh
 ```
+## Acknowledgement
+We would like to thank the authors that release the public repositories: [Multi-Task-Transformer](https://github.com/prismformore/Multi-Task-Transformer) and [MTMamba](https://github.com/EnVision-Research/MTMamba).
+
 ## Citation
 If you found this code/work to be useful in your own research, please cite the following:
 ```
