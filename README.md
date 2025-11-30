@@ -30,7 +30,6 @@ DATASET_ROOT
 ```
 
 
-
 ## 3. Evaluate the model
 Our trained HiFAN model can be obtained [here](https://drive.google.com/file/d/1mb07S3Ox85fF0_dUwleDiN7fkjqUmdIN/view?usp=drive_link)
 ```
@@ -42,13 +41,13 @@ bash ./script/test_PAME_pascal.sh
 | **pascal_swinB**|78.59   |70.54    |84.88     |14.64   |76.80 |   -    |   146M | [link](https://drive.google.com/file/d/1CiwC875R0ARv_fbt7MbsWV2d0jVqXzuz/view?usp=sharing)        |
 | **pascal_swinL**|83.00   |73.71    |85.16     |14.64   |78.20 |   -    |   327M | [link](https://drive.google.com/file/d/1qfawypLeAYAgEOIiuVADjEtD_Ohb1QIV/view?usp=sharing)        |
 ## 4. Train the model
-Prepare the pretrained Swin-Large checkpoint by running the following command
-
+Prepare the pretrained Swin-Large checkpoint by running the following command:
 ```
 cd pretrained_ckpts
 bash run.sh
 cd ../
 ```
+run the following command for training:
 ```
 bash ./scripts/train/nyu_swinL.sh
 bash ./scripts/train/pascal_swinB.sh
