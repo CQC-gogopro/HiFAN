@@ -61,13 +61,4 @@ bash ./scripts/train/pascal_swinL.sh
 ## Acknowledgement
 We would like to thank the authors that release the public repositories: [Multi-Task-Transformer](https://github.com/prismformore/Multi-Task-Transformer) and [MTMamba](https://github.com/EnVision-Research/MTMamba).
 
-## Citation
-If you found this code/work to be useful in your own research, please cite the following:
-```
-@article{yu2025parameter,
-  title={Parameter Aware Mamba Model for Multi-task Dense Prediction},
-  author={Yu, Xinzhuo and Zhuge, Yunzhi and Gong, Sitong and Zhang, Lu and Zhang, Pingping and Lu, Huchuan},
-  journal={arXiv preprint arXiv:2511.14503},
-  year={2025}
-}
-```
+
