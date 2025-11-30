@@ -1,8 +1,8 @@
 # HiFAN
-![Pipeline](https://github.com/CQC-gogopro/HiFAN/blob/main/assets/pipeline.png)
+![Pipeline](assets/Pipeline.png)
 
 <p align="center">
-  <img src="assets/pipeline.png" width="500">
+  <img src="assets/Pipeline.png" width="500">
 </p>
 ## 1. Make the enriroment
 Our code is based on  `pytorch==2.0.0+cu118` `cuda==11.8` `timm==1.0.22` `mmcv==2.0.0`. Other environments can refer to requirements.txt
