@@ -58,7 +58,7 @@ bash ./scripts/train/nyu_swinL.sh
 bash ./scripts/train/pascal_swinB.sh
 bash ./scripts/train/pascal_swinL.sh
 ```
-## Cite
+## Citation
 If you found this code/work to be useful in your own research, please cite the following:
 ```
 @article{yu2025parameter,
