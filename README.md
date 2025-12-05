@@ -58,7 +58,6 @@ Please switch to your virtual environment first and run the following command fo
 bash ./scripts/train/nyu_swinL.sh
 bash ./scripts/train/pascal_swinB.sh
 bash ./scripts/train/pascal_swinL.sh
-# 
 ```
 ## Acknowledgement
 We would like to thank the authors that release the public repositories: [Multi-Task-Transformer](https://github.com/prismformore/Multi-Task-Transformer) and [MTMamba](https://github.com/EnVision-Research/MTMamba).
