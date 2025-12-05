@@ -59,8 +59,6 @@ MinerU__*/
 test_*.py
 
 # 输出文件夹
-# pretrained_ckpts/
-# outputs/
 
 # 权重文件
 *.tar
